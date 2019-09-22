@@ -13,7 +13,6 @@ writeCards(["Ada", "Brendan", "Ali"], "birthday");
 function countdown(num){
  while (num>=0){
   console.log(num--);
-   //num==--num;
  }
  return num;
 }
