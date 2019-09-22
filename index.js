@@ -10,11 +10,10 @@ return thank ;
 }
 writeCards(["Ada", "Brendan", "Ali"], "birthday");
 //-------------
-function countdown(num){
-  let arr=[];
+function countdown(){
+  let num;
  while (num>=0){
-  // console.log(`${num}`);
-  arr.push(num);
+  console.log(`${num}`);
    num=--num;
  }
  return num;
