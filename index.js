@@ -10,8 +10,8 @@ return thank ;
 }
 writeCards(["Ada", "Brendan", "Ali"], "birthday");
 //-------------
-function countdown( ){
-  let m;
+function countdown(
+  let 
  while (num>=0){
   console.log(`${num}`);
    num=--num;
